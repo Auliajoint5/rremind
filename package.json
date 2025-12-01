@@ -1,0 +1,32 @@
+{
+  "name": "rremind",
+  "version": "1.0.0",
+  "description": "订阅到期提醒系统（rremind），React + Vite 单页应用。",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "subscription",
+    "reminder",
+    "telegram",
+    "vite",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "nanoid": "^5.1.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zustand": "^5.0.9"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-swc": "^4.2.2",
+    "vite": "^7.2.4"
+  }
+}
